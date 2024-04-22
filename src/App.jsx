@@ -1,10 +1,10 @@
-import './App.css'
+import HomeIntro from './components/home/HomeIntro'
 
 function App() {
 
   return (
     <>
-      <p className='text-red-500'>Test</p>
+      <HomeIntro/>
     </>
   )
 }
