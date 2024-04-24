@@ -1,13 +1,13 @@
 import React from 'react'
 import { homeImage, shoesBlack } from '../../../assets/images'
 import { WelcomeTextFirst, WelcomeTextSecond } from '../../../variables/Text'
-import Carousel from '../../carousel/Carousel'
+import FeaturedItems from '../../carousel/FeaturedItems'
 
 export default function Welcome() {
     return (
         <div className='min-h-screen w-full relative'>
             <div>
-                <img className='' src={shoesBlack} alt="This is Home Image" />
+                <img src={shoesBlack} alt="This is Home Image" />
             </div>
             <div className='absolute top-2 left-3 text-white font-semibold'>
                 <span className='text-secondary text-xs capitalize '>
@@ -22,7 +22,7 @@ export default function Welcome() {
                     </button>
                 </div>
             </div>
-            <Carousel/>
+            <FeaturedItems/>
         </div>
         
     )
