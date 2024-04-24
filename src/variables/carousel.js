@@ -1,4 +1,4 @@
-import { aksesorisCarousel, carierCarousel, celanaCarousel, jaketCarousel, kemejaCarousel, sendalCarousel, sepatuCarousel } from "../assets/images";
+import { aksesorisCarousel, bucketRimba, carierCarousel, celanaCarousel, eigerMamba, eigerTrocadeo, fatgoodsTShirt, gutsTShirt, jaketCarousel, kemejaCarousel, sendalCarousel, sepatuCarousel } from "../assets/images";
 
 export const datas = [
     {
@@ -28,5 +28,28 @@ export const datas = [
     {
         image : jaketCarousel,
         nama : "Jaket"
+    },
+]
+
+export const dataFlashSale = [
+    {
+        image : bucketRimba,
+        nama : 'Bucket Rimba'
+    },
+    {
+        image : eigerMamba,
+        nama : 'Eiger Mamba'
+    },
+    {
+        image : eigerTrocadeo,
+        nama : 'Eiger Trocadeo'
+    },
+    {
+        image : fatgoodsTShirt,
+        nama : 'FatGood T-shirt'
+    },
+    {
+        image : gutsTShirt,
+        nama : 'Guts T-shirt'
     },
 ]

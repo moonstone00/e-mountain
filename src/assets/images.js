@@ -10,3 +10,16 @@ export const carierCarousel = '../../assets/images/carierCarousel.png';
 export const kemejaCarousel = '../../assets/images/kemejaCarousel.png';
 export const celanaCarousel = '../../assets/images/celanaCarousel.png';
 export const jaketCarousel = '../../assets/images/jaketCarousel.png';
+
+// Flash Sale
+export const camping = '../../assets/images/camping.jpg';
+export const surfinclo = '../../assets/images/surfinclo.png';
+export const celanaCargo = '../../assets/images/celanaCargo.png';
+export const washedTShirt = '../../assets/images/washedTShirt.png';
+export const kemejaCorduroy = '../../assets/images/kemejaCorduroy.png';
+export const gutsTShirt = '../../assets/images/gutsTShirt.png';
+export const fatgoodsTShirt = '../../assets/images/fatgoodsTShirt.png';
+export const eigerTrocadeo = '../../assets/images/eigerTrocadeo.png';
+export const eigerKinkajou = '../../assets/images/eigerKinkajou.png';
+export const eigerMamba = '../../assets/images/eigerMamba.png';
+export const bucketRimba = '../../assets/images/bucketRimba.png';

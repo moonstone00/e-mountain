@@ -39,7 +39,7 @@ export default function FeaturedItems() {
     };
 
     return (
-        <div className='w-[96%] mx-auto mt-6'>
+        <div className='w-[96%] mx-auto m-6'>
             <Slider {...settings}>
                 {
                     datas.map((data) => (

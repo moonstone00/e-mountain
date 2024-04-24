@@ -1,11 +1,10 @@
 import React from 'react'
-import { homeImage, shoesBlack } from '../../../assets/images'
+import { shoesBlack } from '../../../assets/images'
 import { WelcomeTextFirst, WelcomeTextSecond } from '../../../variables/Text'
-import FeaturedItems from '../../carousel/FeaturedItems'
 
 export default function Welcome() {
     return (
-        <div className='min-h-screen w-full relative'>
+        <div className='w-full relative'>
             <div>
                 <img src={shoesBlack} alt="This is Home Image" />
             </div>
@@ -22,7 +21,6 @@ export default function Welcome() {
                     </button>
                 </div>
             </div>
-            <FeaturedItems/>
         </div>
         
     )
