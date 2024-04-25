@@ -36,3 +36,16 @@ html {
 .slick-slide > div {
     margin: 0 4px;
 }
+
+.bg-flash-sale {
+    background-image: url('../assets/images/comic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    background-size: 100% 285px;
+}
+
+.bg-discount {
+    background-color: goldenrod;
+    color: var(--white);
+}

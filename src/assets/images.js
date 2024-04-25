@@ -12,7 +12,8 @@ export const celanaCarousel = '../../assets/images/celanaCarousel.png';
 export const jaketCarousel = '../../assets/images/jaketCarousel.png';
 
 // Flash Sale
-export const camping = '../../assets/images/camping.jpg';
+export const flashSale = '../../assets/images/flashSale.png'
+export const comic = '../../assets/images/comic.jpg';
 export const surfinclo = '../../assets/images/surfinclo.png';
 export const celanaCargo = '../../assets/images/celanaCargo.png';
 export const washedTShirt = '../../assets/images/washedTShirt.png';
