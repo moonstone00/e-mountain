@@ -24,3 +24,14 @@ export const eigerTrocadeo = '../../assets/images/eigerTrocadeo.png';
 export const eigerKinkajou = '../../assets/images/eigerKinkajou.png';
 export const eigerMamba = '../../assets/images/eigerMamba.png';
 export const bucketRimba = '../../assets/images/bucketRimba.png';
+
+// activity
+export const camping = '../../assets/images/camping.jpg';
+export const travelling = '../../assets/images/travelling.jpg';
+export const riding = '../../assets/images/riding.jpg';
+export const dailyWear = '../../assets/images/dailyWear.jpg';
+export const climbing = '../../assets/images/climbing.jpg';
+export const running = '../../assets/images/running.jpg';
+export const cycling = '../../assets/images/cycling.jpg';
+export const shooting = '../../assets/images/shooting.jpg';
+export const waterSport = '../../assets/images/waterSport.jpg';

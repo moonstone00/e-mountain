@@ -41,7 +41,6 @@ export default function FlashSale() {
 
     return (
         <div className='h-[300px] bg-flash-sale relative'>
-            {/* <img className='w-12 h-12' src={flashSale} alt="This is flash sale" /> */}
             <div className='flex justify-center'>
                 <Slider {...settings}>
                     {
