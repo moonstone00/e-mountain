@@ -40,6 +40,7 @@ export default function FeaturedItems() {
 
     return (
         <div className='w-[96%] mx-auto m-6'>
+            <p className='capitalize font-bold italic text-third mb-2'>category</p>
             <Slider {...settings}>
                 {
                     datas.map((data) => (

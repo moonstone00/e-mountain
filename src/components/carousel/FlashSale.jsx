@@ -40,7 +40,7 @@ export default function FlashSale() {
     };
 
     return (
-        <div className='h-[300px] bg-flash-sale relative'>
+        <div className='h-[285px] bg-flash-sale relative'>
             <div className='flex justify-center'>
                 <Slider {...settings}>
                     {

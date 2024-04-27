@@ -38,7 +38,9 @@ export default function Activity() {
     };
 
     return (
-        <div className='w-[95%] mx-auto'>
+        <div className='w-[95%] mx-auto my-6'>
+
+            <p className='capitalize font-bold italic text-third mb-2'>activity</p>
 
             <div className='tablet:hidden'>
                 <Slider {...settings}>
