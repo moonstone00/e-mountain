@@ -38,7 +38,7 @@ export default function Activity() {
     };
 
     return (
-        <div className='w-[95%] mx-auto my-6'>
+        <div className='w-[95%] mx-auto mt-6'>
 
             <p className='capitalize font-bold italic text-third mb-2'>activity</p>
 

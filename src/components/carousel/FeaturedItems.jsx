@@ -39,14 +39,14 @@ export default function FeaturedItems() {
     };
 
     return (
-        <div className='w-[96%] mx-auto m-6'>
+        <div className='w-[96%] mx-auto mt-6'>
             <p className='capitalize font-bold italic text-third mb-2'>category</p>
             <Slider {...settings}>
                 {
                     datas.map((data) => (
                         <div>
                             <div className='bg-[#18191a] flex flex-col items-center p-[0.05rem] border-2 border-[#18191a] rounded-xl'>
-                                <div className='flex justify-center items-center w-full h-14 bg-slate-200 rounded-t-xl rounded-b-xl'>
+                                <div className='flex justify-center items-center w-full h-14 bg-[#ecefeb] rounded-t-xl rounded-b-xl'>
                                     <img className='w-16 h-14' src={data.image} alt={data.nama} />
                                 </div>
 

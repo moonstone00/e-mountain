@@ -35,3 +35,12 @@ export const running = '../../assets/images/running.jpg';
 export const cycling = '../../assets/images/cycling.jpg';
 export const shooting = '../../assets/images/shooting.jpg';
 export const waterSport = '../../assets/images/waterSport.jpg';
+
+// Top Products
+export const eigerArdonix = '../../assets/images/eigerArdonix.png';
+export const eigerCayman = '../../assets/images/eigerCayman.png';
+export const eigerEaglePlum = '../../assets/images/eigerEaglePlum.png';
+export const eigerElgon = '../../assets/images/eigerElgon.png';
+export const eigerDauerhaft = '../../assets/images/eigerDauerhaft.png';
+export const eigerGeometric = '../../assets/images/eigerGeometric.png';
+export const eigerClifton = '../../assets/images/eigerClifton.png';
