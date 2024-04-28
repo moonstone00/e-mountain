@@ -38,6 +38,19 @@ export default function ProductHome() {
                         <p>Eiger Ardonix Shoes</p>
                     </div>
 
+                    <div className='flex items-center gap-2'>
+                        <div className='text-yellow-500'>
+                            <Star viewBox="0 0 30 30"/>
+                            <Star viewBox="0 0 30 30"/>
+                            <Star viewBox="0 0 30 30"/>
+                            <Star viewBox="0 0 30 30"/>
+                            <Star viewBox="0 0 30 30"/>
+                        </div>
+                        <div className='text-slate-300 font-semibold text-xs'>
+                            <p>64 views</p>
+                        </div>
+                    </div>
+
                     
                 </div>
             </section>
