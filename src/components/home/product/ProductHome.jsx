@@ -82,7 +82,18 @@ export default function ProductHome() {
                         </div>
                         <p className='capitalize font-semibold text-[#C07F00]'>size guide</p>
                     </div>
-                    
+                    <div className='flex items-center gap-4 border w-max px-1 rounded-md'>
+                        <button className='hover:bg-slate-300 w-2 h-4 px-2 pb-0.5 flex justify-center items-center rounded-md font-bold'> 
+                            -
+                        </button>
+                        <div>
+                            1
+                        </div>
+                        <button className='hover:bg-slate-300 w-2 h-4 px-2 pb-0.5 flex justify-center items-center rounded-md font-bold'> 
+                            +
+                        </button>
+                    </div>
+                   
                 </div>
             </section>
         </>
