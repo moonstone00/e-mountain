@@ -2,8 +2,11 @@ import React from 'react'
 import Slider from 'react-slick'
 import { dataTopProducts, newDataTopProducts } from '../../../../variables/topProducts';
 import {NavigateBefore, NavigateNext} from '@mui/icons-material';
+import { useNavigate } from 'react-router';
 
 export default function TopProducts() {
+
+    const navigate = useNavigate();
 
     const settings = {
         className: '',
@@ -57,7 +60,9 @@ export default function TopProducts() {
         ]
     };
 
-
+    const handleProduct = () => {
+        navigate('/top-products')
+    }
 
     return (
         <div className='w-[95%] mx-auto mt-6 mb-4'>
@@ -70,7 +75,7 @@ export default function TopProducts() {
                 <Slider {...settings}>
                     {
                         dataTopProducts.map((data) => (
-                            <div className=' h-28 shadow-md bg-white '>
+                            <div onClick={handleProduct} className='cursor-pointer h-28 shadow-md bg-white '>
                                 <div className='flex justify-center bg-[#ecefeb]'>
                                     <img className='w-16 h-16' src={data.image} alt={data.nama} />
                                 </div>
@@ -94,13 +99,13 @@ export default function TopProducts() {
                                         <button className='bg-red-500 text-white font-bold text-xs text-third py-1 px-4 shadow-sm'>shop now</button>
                                     </div>
                                     <div className='flex items-center'>
-                                        <div className={`bg-red-500 w-max h-max text-white ${index == 1 ? 'hidden' : ''}`}>
+                                        <div className={`bg-red-500 w-max h-max text-white cursor-pointer ${index == 1 ? 'hidden' : ''}`}>
                                             <NavigateBefore/>
                                         </div>
 
                                         <img className='w-24 h-26' src={data.image} alt={data.nama} />
 
-                                        <div className={`bg-red-500 w-max h-max text-white ${index == 1 ? 'hidden' : ''}`}>
+                                        <div className={`bg-red-500 w-max h-max text-white cursor-pointer ${index == 1 ? 'hidden' : ''}`}>
                                             <NavigateNext/>
                                         </div>
                                     </div>
