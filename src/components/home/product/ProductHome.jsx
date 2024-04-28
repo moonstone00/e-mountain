@@ -51,6 +51,37 @@ export default function ProductHome() {
                         </div>
                     </div>
 
+                    <div className='text-black font-bold text-3xl'>
+                        <p>Rp. 900.000</p>
+                    </div>
+
+                    <div >
+                        <p className='text-black text-xs font-semibold'>Choose EU Size</p>
+                        <div className='flex flex-wrap gap-2'>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>39</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>40</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>41</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>42</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>43</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>44</p>
+                            </div>
+                            <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
+                                <p>45</p>
+                            </div>
+                        </div>
+                        <p className='capitalize font-semibold text-[#C07F00]'>size guide</p>
+                    </div>
                     
                 </div>
             </section>
