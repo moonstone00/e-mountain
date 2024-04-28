@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from '../../navbar/Navbar'
 import { eigerArdonix, logoMountain } from '../../../assets/images'
 import { dataTopProducts } from '../../../variables/topProducts'
-import {Star, LocalMall, Favorite} from '@mui/icons-material';
+import {Star, LocalMall, Favorite, LocalShipping} from '@mui/icons-material';
 
 export default function ProductHome() {
     return (
@@ -101,6 +101,12 @@ export default function ProductHome() {
                         <div className='bg-[#ddddd9] text-white h-max p-1 rounded-md hover:text-[#C40C0C]'>
                             <Favorite/>
                         </div>
+                    </div>
+                    <div className='flex items-center gap-3'>
+                        <LocalShipping/>
+                        <p className='text-xs font-bold'>
+                            Free delivery on orders over Rp100.000
+                        </p>
                     </div>
                 </div>
             </section>
