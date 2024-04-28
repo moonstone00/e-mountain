@@ -26,7 +26,20 @@ export default function ProductHome() {
                     </div>
                 </div>
 
-                
+                <div className='w-[90%] mx-auto'>
+                    <div className='flex items-center gap-3'>
+                        <div className='flex justify-center items-center w-7 h-7 bg-[#18191a] rounded-full'>
+                            <img className='w-6 h-6' src={logoMountain} alt="This is logo" />
+                        </div>
+                        <p className='capitalize text-black font-semibold text-third'>mount</p>
+                    </div>
+
+                    <div className='text-black font-bold text-xl text-primary tracking-wider'>
+                        <p>Eiger Ardonix Shoes</p>
+                    </div>
+
+                    
+                </div>
             </section>
         </>
     )
