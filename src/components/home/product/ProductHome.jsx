@@ -93,7 +93,15 @@ export default function ProductHome() {
                             +
                         </button>
                     </div>
-                   
+                    <div className='flex items-center gap-5'>
+                        <div className='flex items-center justify-center gap-3 py-1 w-full text-white bg-black rounded-md'>
+                            <LocalMall/>
+                            <p className='font-semibold'>Add to Cart</p>
+                        </div>
+                        <div className='bg-[#ddddd9] text-white h-max p-1 rounded-md hover:text-[#C40C0C]'>
+                            <Favorite/>
+                        </div>
+                    </div>
                 </div>
             </section>
         </>
