@@ -59,7 +59,7 @@ export default function FlashSale() {
                                         <span>Rp. 20.000</span>
                                         <div className='absolute bg-slate-400 w-full h-[1px] top-[50%] '></div>
                                     </p>
-                                    <p className='text-red-500'>Rp. 20.000</p>
+                                    <p className='text-red-500'>Rp. 200.000</p>
                                 </div>
                             </div>
                         ))

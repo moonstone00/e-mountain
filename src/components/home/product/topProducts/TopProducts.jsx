@@ -60,7 +60,7 @@ export default function TopProducts() {
 
 
     return (
-        <div className='w-[95%] mx-auto mt-6'>
+        <div className='w-[95%] mx-auto mt-6 mb-4'>
             <div className='flex justify-between'>
                 <p className='capitalize font-bold italic text-third mb-2'>top products</p>
                 <p className='capitalize font-bold text-third text-[#f52c29] cursor-pointer'>selengkapnya</p>
