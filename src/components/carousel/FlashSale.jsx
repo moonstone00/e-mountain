@@ -45,7 +45,7 @@ export default function FlashSale() {
                 <Slider {...settings}>
                     {
                         dataFlashSale.map((data) => (
-                            <div className='w-32 h-[182px] bg-white rounded-md p-1'>
+                            <div className='w-32 h-[202px] bg-white rounded-md p-1'>
                                 <div className='bg-[#f0f2f4] h-34 flex flex-col items-center p-[0.05rem] rounded-t-md'>
                                     <img className='w-20 h-20' src={data.image} alt="This is flash sale" />
                                 </div>
@@ -53,7 +53,7 @@ export default function FlashSale() {
                                     <p>20%</p>
                                 </div>
                                 <div>
-                                    <p className='text-sm font-semibold'>{data.nama}</p>
+                                    <p className='text-xs font-semibold'>{data.nama}</p>
                                     <p className='text-xs'>Kaos Hitam</p>
                                     <p className='relative text-xs text-slate-400 w-max'>
                                         <span>Rp. 20.000</span>
