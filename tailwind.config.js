@@ -6,7 +6,8 @@ export default {
   ],
   theme: {
     screens: {
-      'tablet' : '640px'
+      'tablet' : '640px',
+      'laptop' : '1024px'
     }
   },
   plugins: [],

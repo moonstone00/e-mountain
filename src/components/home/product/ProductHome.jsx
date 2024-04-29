@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../navbar/Navbar'
+import Footer from '../../footer/Footer'
 import { eigerArdonix, logoMountain } from '../../../assets/images'
 import { dataTopProducts } from '../../../variables/topProducts'
 import {Star, LocalMall, Favorite, LocalShipping} from '@mui/icons-material';
@@ -26,7 +27,7 @@ export default function ProductHome() {
                     </div>
                 </div>
 
-                <div className='w-[90%] mx-auto'>
+                <div className='w-[90%] mx-auto mt-8'>
                     <div className='flex items-center gap-3'>
                         <div className='flex justify-center items-center w-7 h-7 bg-[#18191a] rounded-full'>
                             <img className='w-6 h-6' src={logoMountain} alt="This is logo" />
@@ -34,11 +35,11 @@ export default function ProductHome() {
                         <p className='capitalize text-black font-semibold text-third'>mount</p>
                     </div>
 
-                    <div className='text-black font-bold text-xl text-primary tracking-wider'>
+                    <div className='text-black font-bold text-xl text-primary tracking-wider my-4'>
                         <p>Eiger Ardonix Shoes</p>
                     </div>
 
-                    <div className='flex items-center gap-2'>
+                    <div className='flex items-center gap-2 mb-6'>
                         <div className='text-yellow-500'>
                             <Star viewBox="0 0 30 30"/>
                             <Star viewBox="0 0 30 30"/>
@@ -51,13 +52,13 @@ export default function ProductHome() {
                         </div>
                     </div>
 
-                    <div className='text-black font-bold text-3xl'>
+                    <div className='text-black font-bold text-3xl my-8'>
                         <p>Rp. 900.000</p>
                     </div>
 
-                    <div >
+                    <div className='my-6'>
                         <p className='text-black text-xs font-semibold'>Choose EU Size</p>
-                        <div className='flex flex-wrap gap-2'>
+                        <div className='flex flex-wrap gap-2 my-1'>
                             <div className='w-max h-max py-1 px-4 font-bold border hover:bg-[#43d5b0] hover:text-white'>
                                 <p>39</p>
                             </div>
@@ -93,7 +94,7 @@ export default function ProductHome() {
                             +
                         </button>
                     </div>
-                    <div className='flex items-center gap-5'>
+                    <div className='flex items-center gap-5 mt-6'>
                         <div className='flex items-center justify-center gap-3 py-1 w-full text-white bg-black rounded-md'>
                             <LocalMall/>
                             <p className='font-semibold'>Add to Cart</p>
@@ -102,7 +103,7 @@ export default function ProductHome() {
                             <Favorite/>
                         </div>
                     </div>
-                    <div className='flex items-center gap-3'>
+                    <div className='flex items-center gap-3 mb-4'>
                         <LocalShipping/>
                         <p className='text-xs font-bold'>
                             Free delivery on orders over Rp100.000
@@ -110,6 +111,7 @@ export default function ProductHome() {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }
