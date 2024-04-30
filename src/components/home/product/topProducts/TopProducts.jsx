@@ -3,6 +3,7 @@ import Slider from 'react-slick'
 import { dataTopProducts, newDataTopProducts } from '../../../../variables/topProducts';
 import {NavigateBefore, NavigateNext} from '@mui/icons-material';
 import { useNavigate } from 'react-router';
+import ProductHome from '../ProductHome';
 
 export default function TopProducts() {
 
@@ -60,9 +61,16 @@ export default function TopProducts() {
         ]
     };
 
-    const handleProduct = () => {
-        navigate('/top-products')
-    }
+    const handleProductButtonClick = (index) => {
+        // Panggil fungsi untuk menavigasi atau melakukan tindakan lainnya
+        // Pastikan untuk meneruskan nilai index ke fungsi ini
+        // Misalnya:
+        navigateToProduct(index);
+    };
+
+    const navigateToProduct = (index) => {
+        navigate(`/product/${index}`)
+    };
 
     return (
         <div className='w-[95%] mx-auto mt-6 mb-4'>
@@ -74,8 +82,8 @@ export default function TopProducts() {
             <div >
                 <Slider {...settings}>
                     {
-                        dataTopProducts.map((data) => (
-                            <div onClick={handleProduct} className='cursor-pointer h-28 shadow-md bg-white '>
+                        dataTopProducts.map((data, index) => (
+                            <div onClick={() => handleProductButtonClick(index)} className='cursor-pointer h-28 shadow-md bg-white '>
                                 <div className='flex justify-center bg-[#ecefeb]'>
                                     <img className='w-16 h-16' src={data.image} alt={data.nama} />
                                 </div>

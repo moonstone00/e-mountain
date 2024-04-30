@@ -1,8 +1,14 @@
 import React from 'react'
 import {ShoppingCart, Person, Search} from '@mui/icons-material';
 import { logoMountain } from '../../assets/images'
+import { useSelector } from 'react-redux';
+import { selectCartTotalItems } from '../../features/cart/cartSlice';
 
 export default function Navbar() {
+
+    const cartTotalItems = useSelector(selectCartTotalItems)
+    console.log(cartTotalItems)
+
     return (
         <header className='px-6 pt-4 bg-[#18191a]'>
             <div className='flex justify-between items-center gap-12 border-b-2'>
@@ -20,9 +26,12 @@ export default function Navbar() {
                         <input type="search" id="default-search" className="block w-full px-4 py-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search Mockups, Logos..." required />
                     </div>
                 </form>
-                <div className='flex gap-3'>
+                <div className='flex items-center gap-3'>
                     <Search className='laptop:hidden' sx={{ color: '#fcfbfc' }}/>
-                    <ShoppingCart  sx={{ color: '#fcfbfc' }} />
+                    <button className='relative bg-[#524C42] p-1 rounded-full'>
+                        <ShoppingCart  sx={{ color: '#fcfbfc' }} />
+                        <span className='absolute bg-blue-500 w-max h-5 p-1.5 text-white text-sm rounded-full flex justify-center items-center -top-2 -right-2'>{cartTotalItems}</span>
+                    </button>
                     <Person  sx={{ color: '#fcfbfc' }} />
                 </div>
             </div>

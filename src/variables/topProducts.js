@@ -3,23 +3,28 @@ import { eigerArdonix, eigerCayman, eigerClifton, eigerDauerhaft, eigerEaglePlum
 export const dataTopProducts = [
     {
         image : eigerArdonix,
-        nama : 'Eiger Ardonix'
+        nama : 'Eiger Ardonix',
+        price : 200000,
     },
     {
         image : eigerEaglePlum,
-        nama : 'Eiger Eagle Plum'
+        nama : 'Eiger Eagle Plum,',
+        price : 400000,
     },
     {
         image : eigerElgon,
-        nama : 'Eiger Elgon'
+        nama : 'Eiger Elgon',
+        price : 300000,
     },
     {
         image : eigerDauerhaft,
-        nama : 'Eiger Ardonix'
+        nama : 'Eiger Ardonix',
+        price : 600000,
     },
     {
         image : eigerCayman,
-        nama : 'Eiger Cayman'
+        nama : 'Eiger Cayman',
+        price : 800000,
     },
 ]
 
